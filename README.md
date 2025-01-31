@@ -21,10 +21,13 @@
   브라우저를 새로고침해도 데이터가 유지됩니다.
 
 📂 **프로젝트 구조**
-  📂 To-Do-List **
-  ├── 📄 index.html # 메인 HTML 파일 **
-  ├── 📄 style.css # 스타일 파일 **
-  ├── 📄 main.js # 기능을 구현한 JavaScript 파일**
+  📂 To-Do-List
+  
+  ├── 📄 index.html # 메인 HTML 파일
+
+  ├── 📄 style.css # 스타일 파일
+  
+  ├── 📄 main.js # 기능을 구현한 JavaScript 파일
 
 🛠️ **사용 기술**
 
