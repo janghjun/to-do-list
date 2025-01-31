@@ -1,0 +1,56 @@
+*{
+    background-color: #ddefff;
+    font-family: "GmarketMedium";
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+h1{
+    margin: 0;
+    margin-bottom: 12px;
+}
+.todo-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+}
+#todo-form #todo-input {
+    width: 80%;
+    border: 1px solid #f0f8ff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#todo-form #todo-input:focus {
+    outline: none;
+}
+
+#todo-form #submit-btn {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: #f0f8ff;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    background: #e0efff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.item-title {
+    flex-grow: 1;
+    margin-left: 10px;
+}
